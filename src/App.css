@@ -1,0 +1,88 @@
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.p {
+  font-size: 38px;
+  margin: 0.5rem 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #34567480;
+  width: 120px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-bottom: 2px dashed black;
+
+}
+
+button.plus {
+  font-family: fantasy;
+  background-color: #4caf50;
+  color: white;
+  width: 80px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+}
+
+button.minus {
+  font-family: fantasy;
+  background-color: #f44336;
+  color: white;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 30px;
+}
+
+button.reset {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+}
+button:hover {
+  opacity: 0.8;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #2A7B9B;
+  
+}
+.btns {
+  display: flex;
+  gap: 10px;
+}
+.card {
+  background-color: #6caeff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  text-align: center;
+}
