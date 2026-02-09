@@ -19,7 +19,7 @@ const App = () => {
         <h1>Counter</h1>
         <div className="p">{count}</div>
         <div className="btns">
-          <button className="minus" onClick={minus1}>-</button>
+          <button className="minus" onClick={minus1}>–</button>
           <button className="plus" onClick={add1}>+</button>
           <button className="reset" onClick={reset}>Reset</button>
       </div>
